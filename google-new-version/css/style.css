@@ -1,0 +1,299 @@
+*{
+    overflow: hidden;
+  }
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+/* HEADER START */
+  .header{
+    width: 100%;
+  }
+  
+  .nav{
+    margin-left: 78%;
+  }
+  
+  .list{
+    list-style: none;
+    display: flex;
+  }
+  
+  .first-li{
+    margin: 2px 5px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+  }
+  
+  .first-li a{
+      text-decoration: none;
+  }
+  
+  .list .two{
+    margin-right:30px;
+  }
+  
+  .end-li{
+    margin: 0px 5px;
+  }
+  
+  .end-li .sign{
+      border: 1px solid #4285f4;
+      font-weight: bold;
+      background: #4285f4;
+      color: white;
+      border-radius: 2px;
+      line-height: 28px;
+      padding: 0 12px;
+  }
+
+  .first-li:hover{
+    text-decoration:underline;
+  }
+
+
+.end-li.one:hover{
+  background-color: #70757a56;
+  border-radius: 10px;
+}
+/* HEADER END */
+
+
+
+/* MAIN START */
+
+.main{
+  width: 1530px;
+  height: 590px;
+}
+
+.img-google , .gg{
+  width: 272px;
+  height: 92px;
+}
+
+.img-google{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.search{
+  display: inline-block;
+  padding: 5px 8px 5px 14px;
+  margin: 20px 300px 10px 440px
+}
+
+.top-box{
+
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+    padding: 0px 8px 0px 14px;
+}
+
+.user-area , input{
+  background-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+  width: 447px;
+  height: 38px;
+  border: none;
+  margin: 2px;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  font-size: 16px;
+}
+
+.mic{
+  width:24px;
+  height: 24px;
+  margin-top: 8px;
+}
+
+.keyboard{
+  
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  padding: 5px 5px 5px 8px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.zoom{
+  width: 22px;
+  height: 22px;
+  padding: 8px 7px 5px 5px; 
+  opacity: 0.3;
+}
+.zoom:hover{
+  box-shadow: 1px 0px 2px 0px #5d5d5e;
+  background-color: #70757a18;
+  border-radius: 24px;
+}
+
+.mic:hover{
+  box-shadow: 1px 0px 2px 0px #5d5d5e;
+  background-color: #70757a18;
+  border-radius: 24px;
+}
+
+.keyboard:hover{
+  box-shadow: 1px 0px 1px 0px #5d5d5e;
+  background-color: #70757a18;
+}
+
+.buttons{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.left-bt{
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  background-color: #f8f9fa;
+  border-radius: 1px;
+  padding: 0px 16px;
+  margin: 11px 4px;
+}
+
+.right-bt{
+  border: 1px solid #f2f2f2;
+  height: 36px;
+  background-color: #f8f9fa;
+  border-radius: 1px;
+  padding: 0px 16px;
+  margin: 11px 4px;
+}
+
+.lang{
+  text-align: center;
+  color: #3c4043;
+  line-height: 28px;
+}
+
+.top-box:hover{
+  box-shadow: 1px 0px 5px 0px #73737496;
+}
+
+.left-bt:hover{
+  box-shadow: 1px 0px 8px 0px #73737496;
+}
+
+.right-bt:hover{
+  box-shadow: 1px 0px 8px 0px #73737496;
+}
+/* MAIN END */
+
+
+
+
+/* FOOTER START */
+  .footer{
+     background-color: #f2f2f2;
+     position:absolute;
+     bottom:0;
+     width:100%;
+    margin-left: -10px;
+     font: 14px arial, sans-serif;
+     color: #70757a;
+  }
+
+  .tr{
+    margin-left: 40px;
+    padding: 0 5px;
+    min-width: 30%;
+    line-height: 40px;
+  }
+
+  .bottom{
+    display: flex;
+    max-width: 100%;
+  }
+
+.left{
+    justify-content: flex-start;
+    min-width: 30%;
+}
+
+.right{
+    justify-content: flex-end;
+    min-width: 70%;
+}
+
+.list-lf{
+    display: flex;
+    list-style: none;
+    margin-left: 0px;
+}
+
+.list-lf li{
+    margin: 0 10px;
+}
+
+.list-rg{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.list-rg li{
+    margin: 0 10px;
+}
+
+.list-lf li a{
+    text-decoration: none;
+    color: #70757a;
+}
+
+.list-rg li a{
+    text-decoration: none;
+    color: #70757a;
+
+}
+
+hr{
+    border: 0.5px solid #dadce0;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+
+.dark-mode {
+  background-color: rgba(0, 0, 0, 0.897);
+  color: white;
+}
+
+.dark-bt{
+  margin-left: 150px;
+  margin-bottom: 1cm;
+  border: 1px solid #868585;
+  height: 36px;
+  background-color: #a0a0a0;
+  border-radius: 24px;
+}
+
+.dark-bt:hover{
+  box-shadow: 1px 0px 10px 3px #9b9b9b96;
+}
+
+.bottom li:hover{
+  text-decoration: underline;
+}
